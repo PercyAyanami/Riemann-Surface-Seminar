@@ -2,9 +2,11 @@
 
 > 从 Rings and Modules 到 Riemann-Roch · 少分析，重代数与几何 · 2026-10-08
 
-本讨论班共 20 次，每次 2 小时，每节课单独选定一位同学主讲，参加者轮流承担报告，大家共同讨论与做题。预设参加者学过实分析和线性代数，复分析与抽象代数基础不齐。专门复分析仅占第 3、4 次，其余以代数、几何、计算与证明为主。
+本讨论班共 20 次，每次 2 小时，每节课单独选定一位同学主讲，参加者轮流承担报告，大家共同讨论与做题。预设参加者学过实分析和线性代数，复分析与抽象代数基础不齐。专门复分析仅占第 5、6 次，其余以代数、几何、计算与证明为主。
 
 ## 怎样使用这份 Schedule
+
+固定主线：A《Rings and Modules 1》（第 1-2 次） → C《Commutative Algebra》（第 3-4 次） → 两次班内复分析工具补充（第 5-6 次） → M《Riemann Surfaces》（第 7-20 次）。只有 A、C、M 是主材料；D、S、Forster 与全部视频均为 supplement。每周先完成固定主阅读，遇到具体疑问再查补充。
 
 每周 A、B 为基础必做尝试，C-E 为巩固（任选至少 1 题），F 为拓展。课前准备约 2-3 小时：必读 60-90 分钟、A/B 30-45 分钟、视频可选 20-30 分钟；基础较弱者可多留时间。主讲人建议提前一周备课、提前 3 天发一页提纲。看不懂时带着具体问题来，尝试过题目即可。
 
@@ -24,14 +26,14 @@
 | 90-115 | 习题工作坊 | 优先 A/B，基础熟者并行做 C-E |
 | 115-120 | 收尾 | 自检、记录疑问、确认下周主讲人 |
 
-## 材料入口
+## 三份主材料与补充入口
 
-- [A · Rings and Modules 1](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Rings and Modules 1.pdf>)。
-- [C · Cascini · Commutative Algebra](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Commutative Algebra - Notes1202.pdf>)。
-- [S · Stein-Shakarchi · Complex Analysis](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Analysis/Complex Analysis Stein.pdf>)。
-- [D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)。
-- [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)。
-- [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)。
+- **主材料**：[A · Rings and Modules 1](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Rings and Modules 1.pdf>)。
+- **主材料**：[C · Cascini · Commutative Algebra](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Commutative Algebra - Notes1202.pdf>)。
+- **主材料**：[M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)。
+- **工具页 / supplement**：[B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)。
+- **工具页 / supplement**：[D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)。
+- **工具页 / supplement**：[S · Stein-Shakarchi · Complex Analysis](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Analysis/Complex Analysis Stein.pdf>)。
 
 [M 的公开下载入口](https://abel.math.harvard.edu/~ctm/math213b/home/course/course.pdf)；页码针对当前本地 2026-04-28 版本。PDF 与网页中的本地材料链接需要保留整个资料文件夹结构，单独转发 Schedule.pdf 不会附带教材。
 
@@ -43,20 +45,20 @@
 
 | 阶段 | 次数 | 主题 |
 |---|---|---|
-| 共同语言 | 01 | [环、理想与商环](#week-01) |
-| 共同语言 | 02 | [模、商模与正合列](#week-02) |
-| 共同语言 | 03 | [必要复分析 I：全纯与局部幂级数](#week-03) |
-| 共同语言 | 04 | [必要复分析 II：亚纯、阶数与留数](#week-04) |
-| 几何例子 | 05 | [黎曼曲面：图册与最少拓扑](#week-05) |
-| 几何例子 | 06 | [球面、复环面与二重覆盖](#week-06) |
-| 几何例子 | 07 | [全纯映射、次数与分歧](#week-07) |
-| 几何例子 | 08 | [Riemann-Hurwitz：由分歧计算亏格](#week-08) |
-| 局部到全局 | 09 | [局部化与局部环](#week-09) |
-| 局部到全局 | 10 | [DVR、局部参数与尖点](#week-10) |
-| 局部到全局 | 11 | [因子与线性等价](#week-11) |
-| 局部到全局 | 12 | [L(D)：允许极点后有多少函数？](#week-12) |
-| 局部到全局 | 13 | [微分、留数与典范线丛](#week-13) |
-| 局部到全局 | 14 | [层、线丛与 O(D)](#week-14) |
+| 代数准备 | 01 | [环、理想与商环](#week-01) |
+| 代数准备 | 02 | [模、商模与正合列](#week-02) |
+| 代数准备 | 03 | [局部化与局部环](#week-03) |
+| 代数准备 | 04 | [DVR、局部参数与尖点](#week-04) |
+| 复分析工具 | 05 | [必要复分析 I：全纯与局部幂级数](#week-05) |
+| 复分析工具 | 06 | [必要复分析 II：亚纯、阶数与留数](#week-06) |
+| 曲面与因子 | 07 | [黎曼曲面：图册与最少拓扑](#week-07) |
+| 曲面与因子 | 08 | [球面、复环面与二重覆盖](#week-08) |
+| 曲面与因子 | 09 | [全纯映射、次数与分歧](#week-09) |
+| 曲面与因子 | 10 | [Riemann-Hurwitz：由分歧计算亏格](#week-10) |
+| 曲面与因子 | 11 | [因子与线性等价](#week-11) |
+| 曲面与因子 | 12 | [L(D)：允许极点后有多少函数？](#week-12) |
+| 曲面与因子 | 13 | [微分、留数与典范线丛](#week-13) |
+| 曲面与因子 | 14 | [层、线丛与 O(D)](#week-14) |
 | 走向 RR | 15 | [Čech H¹：记录拼接失败](#week-15) |
 | 走向 RR | 16 | [层正合列与局部到全局](#week-16) |
 | 走向 RR | 17 | [Euler 特征形式的 Riemann-Roch](#week-17) |
@@ -73,8 +75,9 @@
 
 ### 课前阅读与材料
 
-- **必读 A · PDF 3-5、9-14、17 页**：§1 定义、§3 理想与商环、§4 素与极大理想定义；17 页只读相关定义与商环判别。 [A · Rings and Modules 1](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Rings and Modules 1.pdf>)
-- **选读**：A：PDF 6-8、15-16 页；多项式与分式背景，跳过 Euclidean domain。
+- **固定主阅读 A · PDF 3-5、9-14、17 页**：§1 定义、§3 理想与商环、§4 素与极大理想定义；17 页只读相关定义与商环判别。 [A · Rings and Modules 1](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Rings and Modules 1.pdf>)
+- **班内衔接**：本周无额外工具页。
+- **Supplement（不要求全员阅读）**：A：PDF 6-8、15-16 页；多项式与分式背景，跳过 Euclidean domain。
 
 ### 视频（选看）
 
@@ -109,9 +112,9 @@
 
 ### 课前阅读与材料
 
-- **必读 A · PDF 30-35 页**：§7 模、§8 子模与商模；35 页读到商模结束。 [A · Rings and Modules 1](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Rings and Modules 1.pdf>)
-- **必读 B · §1**：补上教材选段未系统介绍的正合列。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：A：PDF 35-38 页，自由模与扭元；不进入分类定理。
+- **固定主阅读 A · PDF 30-35 页**：§7 模、§8 子模与商模；35 页读到商模结束。 [A · Rings and Modules 1](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Rings and Modules 1.pdf>)
+- **班内衔接**：§1 补上教材选段未系统介绍的正合列。
+- **Supplement（不要求全员阅读）**：A：PDF 35-38 页，自由模与扭元；不进入分类定理。
 
 ### 视频（选看）
 
@@ -135,10 +138,84 @@
 - **2F（拓展）**：写出 `0→(z^n)/(z^(n+1))→C[z]/(z^(n+1))→C[z]/(z^n)→0`，解释每步只增加一个复参数。
 
 **离场自检（115-120 分钟）**：能自行写出一个短正合列，并标明每个箭头。
-**带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「必要复分析 I：全纯与局部幂级数」。
+**带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「局部化与局部环」。
 
 <a id="week-03"></a>
-## 第 03 次 · 必要复分析 I：全纯与局部幂级数
+## 第 03 次 · 局部化与局部环
+
+**本周问题**：只研究一点附近，应该允许哪些分母？
+
+**学完应能**：理解局部化与允许的分母；会判别局部环的单位及剩余域；把 C[z]_(z-a) 看成只关心一点的有理函数。
+
+### 课前阅读与材料
+
+- **固定主阅读 C · PDF 3-4、11-12 页**：局部化的定义与例子；§1.5 局部环。只读局部化、单位、极大理想与剩余域，不补整套 Noetherian 理论。 [C · Cascini · Commutative Algebra](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Commutative Algebra - Notes1202.pdf>)
+- **班内衔接**：基础补充 §6：本周只读有理函数局部环部分；收敛函数芽留到第 11 次。
+- **Supplement（不要求全员阅读）**：补充材料：A PDF 7-9 页分式域；函数芽的比较在第 11 次再读。
+
+### 视频（选看）
+
+[Borcherds · Commutative algebra 16: Localization](https://www.youtube.com/watch?v=15lJotlFr6A) · 约 30 分钟。看乘法集、素理想处局部化及例子；与 C[z]_(z-a)、Z_(p) 对照。
+
+### 本次课堂
+
+- **回顾（0-10 分钟）**：回顾第 2 次的一道基础题与遗留问题。
+- **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：完整证明 C[z]_(z-a) 的单位判别与剩余域。
+- **引用与边界**：环的局部化与多项式除法；本周不使用全纯函数芽。
+- **讨论（65-90 分钟）**：C[z]_(z-a) 与 Z_(p) 的分母条件有什么共同点？
+- **做题（90-115 分钟）**：共同做 3A 或 3B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+
+### 本周六题
+
+- **3A**：证明 C[z]_(z-a) 的唯一极大理想为 (z-a)，剩余域为 C；判断哪些分式是单位。
+- **3B**：证明 Z_(p) 是局部环，其极大理想为 pZ_(p)，剩余域为 F_p（p 为素数）。
+- **3C**：比较 Z_(p) 与 Z[1/p] 的分母条件；分别判断 p 与另一素数 q 是否可逆。
+- **3D**：设 S=R\𝔭、𝔭 为素理想。证明 S 对乘法封闭，并说明这为何允许构造 R_𝔭。
+- **3E**：证明交换局部环中非单位恰好组成唯一极大理想；先从 C[z]_(z) 的例子出发。
+- **3F（拓展）**：用分母判别证明 (C[z]/(z²))_(z)≅C[z]/(z²)，并比较其零因子与 C[z]_(z)。
+
+**离场自检（115-120 分钟）**：能判断一个局部分式是否为单位，并算出剩余域。
+**带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「DVR、局部参数与尖点」。
+
+<a id="week-04"></a>
+## 第 04 次 · DVR、局部参数与尖点
+
+**本周问题**：怎样用整数阶数理解一个点附近的局部代数？
+
+**学完应能**：证明 C[z]_(z) 是 DVR；计算极大理想的 m/m²；用尖点局部环对比一维光滑行为。
+
+### 课前阅读与材料
+
+- **固定主阅读 C · PDF 43-44 页**：§5 Definition 5.1、Proposition 5.2、Examples 5.3；固定读 DVR 的定义与直接刻画，不展开后续整闭维数论。 [C · Cascini · Commutative Algebra](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Commutative Algebra - Notes1202.pdf>)
+- **班内衔接**：基础补充 §6 开头新增的代数预备段：以 C[z]_(z) 为本周主例。
+- **Supplement（不要求全员阅读）**：补充材料：第 11 次再将同一证明用于 C{z}；本周不读分析函数芽。
+
+### 视频（选看）
+
+[Borcherds · Commutative algebra 16: Localization](https://www.youtube.com/watch?v=15lJotlFr6A) · 约 30 分钟。可回看上一周的局部化视频作为背景；DVR 的定义和证明按 Cascini 固定选段完成。
+
+### 本次课堂
+
+- **回顾（0-10 分钟）**：回顾第 3 次的一道基础题与遗留问题。
+- **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：写有理函数芽为 zⁿu，对非零理想取最小阶数，证明它主生成；计算尖点环的 m/m²。
+- **引用与边界**：多项式在 0 的零点重数与局部环单位判别；不需要复分析。
+- **讨论（65-90 分钟）**：一个局部参数为什么够，而尖点却需要两个极大理想生成元？
+- **做题（90-115 分钟）**：共同做 4A 或 4B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+
+### 本周六题
+
+- **4A**：设 R=C[z]_(z)。证明非零 f∈R 写成 zⁿu（n≥0，u 为单位）；由最小阶数证明非零理想是 (zⁿ)，并算 dim_C(m/m²)。
+- **4B**：设 R=C[t²,t³]_(t²,t³)。证明 m/m² 由 t²、t³ 的类构成基；说明 m 不是主理想，R 不是 DVR。
+- **4C**：计算 C[z]_(z)/(zⁿ) 的复维数与一组基；写出逐阶滤过的相邻商（n≥1）。
+- **4D**：在尖点环中，证明 t 属于分式域且满足整方程 T²-t²=0，却不属于原环；说明该环非整闭。
+- **4E**：证明 C(z) 的非零元素恰可写成 zⁿu（n∈Z，u∈C[z]_(z)×），并检验阶数的乘法规则。
+- **4F（拓展）**：考虑 C[t]_(t)→C[s]_(s)，t↦sᵉ（e≥1）。证明阶数在拉回时乘 e；将其与第 9 次的分歧模型联系起来。
+
+**离场自检（115-120 分钟）**：能解释 ord、均匀化参数、m/m² 之间的关系。
+**带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「必要复分析 I：全纯与局部幂级数」。
+
+<a id="week-05"></a>
+## 第 05 次 · 必要复分析 I：全纯与局部幂级数
 
 **本周问题**：哪些分析结论是后面真的会用到的？
 
@@ -146,9 +223,9 @@
 
 ### 课前阅读与材料
 
-- **必读 S · PDF 27-30、64-68 页**：第 1 章 §2.2 全纯性；第 2 章 §4 Cauchy 公式的陈述与直接用途，不追全部估计证明。 [S · Stein-Shakarchi · Complex Analysis](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Analysis/Complex Analysis Stein.pdf>)
-- **必读 B · §2**：只读工具表与紧致曲面上全纯函数为常数的推导。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：S：PDF 33-36、69-71 页，幂级数与 Cauchy 公式后续。
+- **固定主阅读 B · §2**：完整读本节的五项工具及紧致曲面全纯函数为常数的推导；基础定理允许引用。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
+- **班内衔接**：本周固定阅读为班内工具页，尚未进入新的主教材。
+- **Supplement（不要求全员阅读）**：仅需补基础时读 S PDF 27-30、33-36、64-71 页。Stein 是 supplement，不要求全员读。
 
 ### 视频（选看）
 
@@ -156,26 +233,26 @@
 
 ### 本次课堂
 
-- **回顾（0-10 分钟）**：回顾第 2 次的一道基础题与遗留问题。
+- **回顾（0-10 分钟）**：回顾第 4 次的一道基础题与遗留问题。
 - **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：用幂级数说明零点孤立；引用最大模原理推导紧致情形的常数结论。
 - **引用与边界**：Cauchy 公式、局部幂级数定理、最大模原理允许引用。
 - **讨论（65-90 分钟）**：为什么实光滑函数有很多，而紧致曲面上的全纯函数很少？
-- **做题（90-115 分钟）**：共同做 3A 或 3B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+- **做题（90-115 分钟）**：共同做 5A 或 5B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
 ### 本周六题
 
-- **3A**：引用最大模原理，证明紧致连通黎曼曲面上的全纯函数为常数。尚未熟悉曲面者可先说明局部坐标里怎样应用原理。
-- **3B**：利用局部幂级数证明非零全纯函数的零点孤立；解释这怎样推出恒等定理。
-- **3C**：设区域上的全纯函数只取实值，用 Cauchy-Riemann 方程证明它为常数。
-- **3D**：考察穿孔圆盘上的 sin(1/z)：它的零点积聚于 0，为什么不违反恒等定理？
-- **3E**：用 Cauchy 积分公式的导数估计证明有界整函数为常数。可引用导数公式。
-- **3F（拓展）**：解释为什么紧致曲面可以有很多非恒定亚纯函数，尽管全纯函数只有常数。先以球面上的 z 为例。
+- **5A**：引用最大模原理，证明紧致连通黎曼曲面上的全纯函数为常数。尚未熟悉曲面者可先说明局部坐标里怎样应用原理。
+- **5B**：利用局部幂级数证明非零全纯函数的零点孤立；解释这怎样推出恒等定理。
+- **5C**：设区域上的全纯函数只取实值，用 Cauchy-Riemann 方程证明它为常数。
+- **5D**：考察穿孔圆盘上的 sin(1/z)：它的零点积聚于 0，为什么不违反恒等定理？
+- **5E**：用 Cauchy 积分公式的导数估计证明有界整函数为常数。可引用导数公式。
+- **5F（拓展）**：解释为什么紧致曲面可以有很多非恒定亚纯函数，尽管全纯函数只有常数。先以球面上的 z 为例。
 
 **离场自检（115-120 分钟）**：能区分全纯、实可微与仅满足一点的导数条件。
 **带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「必要复分析 II：亚纯、阶数与留数」。
 
-<a id="week-04"></a>
-## 第 04 次 · 必要复分析 II：亚纯、阶数与留数
+<a id="week-06"></a>
+## 第 06 次 · 必要复分析 II：亚纯、阶数与留数
 
 **本周问题**：怎样用一个整数描述零点和极点？
 
@@ -183,9 +260,9 @@
 
 ### 课前阅读与材料
 
-- **必读 S · PDF 91-96 页**：第 3 章 §§1-2：零点、极点与留数公式；不做实积分技巧题。 [S · Stein-Shakarchi · Complex Analysis](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Analysis/Complex Analysis Stein.pdf>)
-- **必读 B · §3**：Laurent 展开、主部和无穷远换元。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：S：PDF 102-106 页，只补奇点与亚纯函数定义。
+- **固定主阅读 B · §3**：完整读 Laurent 展开、主部、阶数和无穷远换元；配合本周 A/B 计算。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
+- **班内衔接**：本周固定阅读为班内工具页，供后续 McMullen 阅读使用。
+- **Supplement（不要求全员阅读）**：仅需补基础时读 S PDF 91-96、102-106 页；不读实积分技巧题。
 
 ### 视频（选看）
 
@@ -193,26 +270,26 @@
 
 ### 本次课堂
 
-- **回顾（0-10 分钟）**：回顾第 3 次的一道基础题与遗留问题。
-- **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：证明阶数的乘法规则，完整计算 4A；比较 f 与 f dz 的换元。
+- **回顾（0-10 分钟）**：回顾第 5 次的一道基础题与遗留问题。
+- **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：证明阶数的乘法规则，完整计算 6A；比较 f 与 f dz 的换元。
 - **引用与边界**：Laurent 展开与围道留数定理引用。
 - **讨论（65-90 分钟）**：为什么 z 在 ∞ 有一阶极点，而 dz 有二阶极点？
-- **做题（90-115 分钟）**：共同做 4A 或 4B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+- **做题（90-115 分钟）**：共同做 6A 或 6B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
 ### 本周六题
 
-- **4A**：求 `f(z)=(z-1)^3/[z²(z+2)]` 在 `0,1,-2,∞` 的阶数，并检查总和。
-- **4B**：证明非零亚纯函数芽可写成 `z^n u(z)`（u 全纯且 `u(0)≠0`）；由此证明乘积阶数相加、非零和的阶数至少是两者阶数的最小值。
-- **4C**：设 f=zⁿu，u(0)≠0。n≠0 时证明 ord₀(f′)=n-1；给出 n=0 时不能照搬结论的例子。
-- **4D**：设 z=φ(w)、φ(0)=0、φ′(0)≠0，证明函数的零极点阶数不随坐标改变。
-- **4E**：用围道积分的换元，证明微分 f(z)dz 的留数不依赖局部坐标。
-- **4F（拓展）**：在 `w=1/z` 下改写 `dz/z` 与 `dz/z²`，计算它们在无穷远的留数。
+- **6A**：求 `f(z)=(z-1)^3/[z²(z+2)]` 在 `0,1,-2,∞` 的阶数，并检查总和。
+- **6B**：证明非零亚纯函数芽可写成 `z^n u(z)`（u 全纯且 `u(0)≠0`）；由此证明乘积阶数相加、非零和的阶数至少是两者阶数的最小值。
+- **6C**：设 f=zⁿu，u(0)≠0。n≠0 时证明 ord₀(f′)=n-1；给出 n=0 时不能照搬结论的例子。
+- **6D**：设 z=φ(w)、φ(0)=0、φ′(0)≠0，证明函数的零极点阶数不随坐标改变。
+- **6E**：用围道积分的换元，证明微分 f(z)dz 的留数不依赖局部坐标。
+- **6F（拓展）**：在 `w=1/z` 下改写 `dz/z` 与 `dz/z²`，计算它们在无穷远的留数。
 
 **离场自检（115-120 分钟）**：能计算一个有理函数在所有点的阶数。
 **带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「黎曼曲面：图册与最少拓扑」。
 
-<a id="week-05"></a>
-## 第 05 次 · 黎曼曲面：图册与最少拓扑
+<a id="week-07"></a>
+## 第 07 次 · 黎曼曲面：图册与最少拓扑
 
 **本周问题**：怎样把局部复平面拼成一个曲面？
 
@@ -220,9 +297,9 @@
 
 ### 课前阅读与材料
 
-- **必读 D · PDF 17-21、27-29 页**：§2.1 曲面分类只读模型与结论；§3.1 定义。 [D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)
-- **必读 B · §4**：补拓扑术语与 χ=2-2g。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 15 页，§2 末尾的拓扑提醒。
+- **固定主阅读 M · PDF 3、15 页**：§2：3 页从黎曼曲面定义读到球面图册；15 页只读 Closed/Compact case、χ=2-2g 与分类结论。跳过一致化、群论与基本群证明。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§4 补拓扑术语与 χ=2-2g。
+- **Supplement（不要求全员阅读）**：Supplement：D PDF 17-21、27-29 页，仅在 M 的定义或拓扑模型不清楚时查。
 
 ### 视频（选看）
 
@@ -230,26 +307,26 @@
 
 ### 本次课堂
 
-- **回顾（0-10 分钟）**：回顾第 4 次的一道基础题与遗留问题。
+- **回顾（0-10 分钟）**：回顾第 6 次的一道基础题与遗留问题。
 - **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：检查 P¹ 两张图的转移函数；画正方形粘合并计算环面 χ。
 - **引用与边界**：紧致可定向曲面分类作为拓扑输入，不证明分类。
 - **讨论（65-90 分钟）**：拓扑同胚和双全纯同构各保留什么？
-- **做题（90-115 分钟）**：共同做 5A 或 5B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+- **做题（90-115 分钟）**：共同做 7A 或 7B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
 ### 本周六题
 
-- **5A**：用两个 `C` 坐标图构造 `P¹`，检查交集上的转移函数；说明紧致性与可定向性。
-- **5B**：把环面画成正方形对边粘合，数 V、E、F，求 Euler 特征；再画一个亏格 2 曲面的多边形模型。
-- **5C**：在 P¹ 上比较坐标 z 与 ζ=2z；检查加入新图后仍是相容图册。为什么实光滑的转移函数还不够？
-- **5D**：从球面的三角剖分去掉 k 个互不相交的小开圆盘，求所得带边界曲面的 Euler 特征。
-- **5E**：说明紧致连通黎曼曲面上的全纯函数为何不能在某点取得严格的非恒定极大模；回顾第 3 次结论。
-- **5F（拓展）**：解释全纯坐标变换的实 Jacobian 行列式为什么为正。
+- **7A**：用两个 `C` 坐标图构造 `P¹`，检查交集上的转移函数；说明紧致性与可定向性。
+- **7B**：把环面画成正方形对边粘合，数 V、E、F，求 Euler 特征；再画一个亏格 2 曲面的多边形模型。
+- **7C**：在 P¹ 上比较坐标 z 与 ζ=2z；检查加入新图后仍是相容图册。为什么实光滑的转移函数还不够？
+- **7D**：从球面的三角剖分去掉 k 个互不相交的小开圆盘，求所得带边界曲面的 Euler 特征。
+- **7E**：说明紧致连通黎曼曲面上的全纯函数为何不能在某点取得严格的非恒定极大模；回顾第 5 次结论。
+- **7F（拓展）**：解释全纯坐标变换的实 Jacobian 行列式为什么为正。
 
 **离场自检（115-120 分钟）**：能说清黎曼曲面定义里每个条件的用途。
 **带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「球面、复环面与二重覆盖」。
 
-<a id="week-06"></a>
-## 第 06 次 · 球面、复环面与二重覆盖
+<a id="week-08"></a>
+## 第 08 次 · 球面、复环面与二重覆盖
 
 **本周问题**：同一组概念在三种曲面上是什么样子？
 
@@ -257,8 +334,9 @@
 
 ### 课前阅读与材料
 
-- **必读 D · PDF 30-36 页**：§3.2：球面、代数曲线、商曲面的例子；只取本周三类对象。 [D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)
-- **选读**：D：PDF 46-48 页，紧化的例子；M：PDF 11-13 页，奇点与正规化的直观。
+- **固定主阅读 M · PDF 8、12-13 页**：8 页只看 Theorem 2.6 中 C/Λ 这一例子；12 页只读 More constructions 的第 2 项代数曲线；13 页只读第 4-6 项覆盖与商。不读一致化、模空间、Schottky 或群论构造。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：基础补充 §5 及习题 8A/B 衔接格商坐标与二重覆盖，所用隐函数定理已在第 5 次引用。
+- **Supplement（不要求全员阅读）**：Supplement：D PDF 30-36、46-48 页，只有需要更多格商/紧化例子时查。
 
 ### 视频（选看）
 
@@ -266,26 +344,26 @@
 
 ### 本次课堂
 
-- **回顾（0-10 分钟）**：回顾第 5 次的一道基础题与遗留问题。
+- **回顾（0-10 分钟）**：回顾第 7 次的一道基础题与遗留问题。
 - **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：证明格商的局部坐标有效；用隐函数定理确定分歧点处的参数。
 - **引用与边界**：局部反函数与隐函数定理引用；紧化先通过例子构造。
 - **讨论（65-90 分钟）**：为什么在 y=0 的简单根处，y 比 x 更适合做坐标？
-- **做题（90-115 分钟）**：共同做 6A 或 6B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+- **做题（90-115 分钟）**：共同做 8A 或 8B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
 ### 本周六题
 
-- **6A**：设 Λ 是由两个实线性无关复数生成的格。选择足够小的圆盘，给 `C/Λ` 建立局部坐标；检查转移函数。
-- **6B**：设 P 的根互异，在曲线 `y²=P(x)` 上分别讨论 `y≠0` 与 `y=0` 处哪个变量可作局部坐标。可引用复隐函数定理。
-- **6C**：在 y²=P(x) 的简单根 a 上，写出 x-a 关于局部参数 y 的最低非零项，解释 x 投影的二阶局部行为。
-- **6D**：用复环面的基本平行四边形给出有限胞腔分解，求 Euler 特征；解释它为何紧致。
-- **6E**：在 y²=x³ 上考察参数化 t↦(t²,t³)，比较参数平面与原曲线在原点的局部坐标问题。
-- **6F（拓展）**：比较 `y²=x` 与 `y²=x³` 在原点的行为；解释后者为什么不能直接当作光滑黎曼曲面。
+- **8A**：设 Λ 是由两个实线性无关复数生成的格。选择足够小的圆盘，给 `C/Λ` 建立局部坐标；检查转移函数。
+- **8B**：设 P 的根互异，在曲线 `y²=P(x)` 上分别讨论 `y≠0` 与 `y=0` 处哪个变量可作局部坐标。可引用复隐函数定理。
+- **8C**：在 y²=P(x) 的简单根 a 上，写出 x-a 关于局部参数 y 的最低非零项，解释 x 投影的二阶局部行为。
+- **8D**：用复环面的基本平行四边形给出有限胞腔分解，求 Euler 特征；解释它为何紧致。
+- **8E**：在 y²=x³ 上考察参数化 t↦(t²,t³)，比较参数平面与原曲线在原点的局部坐标问题。
+- **8F（拓展）**：比较 `y²=x` 与 `y²=x³` 在原点的行为；解释后者为什么不能直接当作光滑黎曼曲面。
 
 **离场自检（115-120 分钟）**：能在一个简单分歧点写出局部参数。
 **带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「全纯映射、次数与分歧」。
 
-<a id="week-07"></a>
-## 第 07 次 · 全纯映射、次数与分歧
+<a id="week-09"></a>
+## 第 09 次 · 全纯映射、次数与分歧
 
 **本周问题**：一个特殊纤维里少掉的点去了哪里？
 
@@ -293,9 +371,9 @@
 
 ### 课前阅读与材料
 
-- **必读 D · PDF 37-40 页**：§4.1 全纯映射。 [D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)
-- **必读 M · PDF 16-19 页**：§3 开头：局部映射与 proper maps，只读紧致情形。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **选读**：B：§5 的局部模型说明；M 其余覆盖分类暂不读。
+- **固定主阅读 M · PDF 16-19 页**：§3 从 Holomorphic maps 起读局部次数、proper maps 与紧致纤维计数；16 页先跳过拓扑 Ends。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：本周无额外工具页。
+- **Supplement（不要求全员阅读）**：Supplement：D PDF 37-40 页，另一种全纯映射讲法。
 
 ### 视频（选看）
 
@@ -303,26 +381,26 @@
 
 ### 本次课堂
 
-- **回顾（0-10 分钟）**：回顾第 6 次的一道基础题与遗留问题。
+- **回顾（0-10 分钟）**：回顾第 8 次的一道基础题与遗留问题。
 - **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：从幂级数及局部取根得到 t=sᵉ；完整算 z↦zⁿ。
 - **引用与边界**：局部反函数定理；有限覆盖的基本计数结论。
 - **讨论（65-90 分钟）**：为什么每个纤维的重数总和都是同一个 d？
-- **做题（90-115 分钟）**：共同做 7A 或 7B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
+- **做题（90-115 分钟）**：共同做 9A 或 9B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
 ### 本周六题
 
-- **7A**：对 `f:P¹→P¹, z↦z^n`（n≥2），求次数、所有分歧点和分歧指数，包括无穷远。
-- **7B**：在复环面上研究 `[m]:z↦mz`（整数 m≥2），证明它无分歧，求每个纤维的点数。
-- **7C**：设 P,Q 互素且 P/Q 非恒定，证明球面上的有理映射次数为 max(deg P,deg Q)。
-- **7D**：对 z↦z²-1，分别计算 -1、0、∞ 的纤维，并验证按局部重数计的总数相同。
-- **7E**：证明紧致连通曲面间的非恒定全纯映射若次数为 1，则是双全纯同构。
-- **7F（拓展）**：证明两个非恒定紧致曲面映射复合后的次数相乘。
+- **9A**：对 `f:P¹→P¹, z↦z^n`（n≥2），求次数、所有分歧点和分歧指数，包括无穷远。
+- **9B**：在复环面上研究 `[m]:z↦mz`（整数 m≥2），证明它无分歧，求每个纤维的点数。
+- **9C**：设 P,Q 互素且 P/Q 非恒定，证明球面上的有理映射次数为 max(deg P,deg Q)。
+- **9D**：对 z↦z²-1，分别计算 -1、0、∞ 的纤维，并验证按局部重数计的总数相同。
+- **9E**：证明紧致连通曲面间的非恒定全纯映射若次数为 1，则是双全纯同构。
+- **9F（拓展）**：证明两个非恒定紧致曲面映射复合后的次数相乘。
 
 **离场自检（115-120 分钟）**：能区分分歧点、分歧值、局部指数与映射次数。
 **带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「Riemann-Hurwitz：由分歧计算亏格」。
 
-<a id="week-08"></a>
-## 第 08 次 · Riemann-Hurwitz：由分歧计算亏格
+<a id="week-10"></a>
+## 第 10 次 · Riemann-Hurwitz：由分歧计算亏格
 
 **本周问题**：分歧如何改变 Euler 特征？
 
@@ -330,10 +408,9 @@
 
 ### 课前阅读与材料
 
-- **必读 D · PDF 88-89 页**：§7.2.1：RH 的拓扑证明与公式。 [D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)
-- **必读 M · PDF 24-25 页**：§3 的 Euler 特征与 Theorem 3.4。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §5**：无穷远的奇偶次数模型。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：复习第 6、7 次例子；不进入代数函数的一般理论。
+- **固定主阅读 M · PDF 24-25 页**：§3 的 Euler 特征与 Theorem 3.4（Riemann-Hurwitz），读公式及计数证明。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§5 无穷远的奇偶次数模型。
+- **Supplement（不要求全员阅读）**：Supplement：D PDF 88-89 页，仅在三角剖分计数不清楚时查。
 
 ### 视频（选看）
 
@@ -341,97 +418,22 @@
 
 ### 本次课堂
 
-- **回顾（0-10 分钟）**：回顾第 7 次的一道基础题与遗留问题。
+- **回顾（0-10 分钟）**：回顾第 9 次的一道基础题与遗留问题。
 - **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：提升以分歧值为顶点的三角剖分，推导 χ(X)=dχ(Y)-Σ(e-1)。
 - **引用与边界**：三角剖分存在性引用；把计数证明讲完整。
 - **讨论（65-90 分钟）**：为何奇数次多项式有一个无穷远点，偶数次有两个？
-- **做题（90-115 分钟）**：共同做 8A 或 8B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
-
-### 本周六题
-
-- **8A**：设 P 无重根且 `deg P=2g+2`，对 `y²=P(x)` 的光滑紧化求 x 映射的分歧点与亏格；说明有两个无穷远点且不分歧。
-- **8B**：对无重根的 `deg P=2g+1` 做同样计算，说明唯一无穷远点也分歧。
-- **8C**：二重覆盖 P¹ 恰有四个简单分歧值，求覆盖曲面的亏格；画出一种割线粘合示意。
-- **8D**：证明复环面的任意有限无分歧连通覆盖仍有亏格 1；与 [m] 的例子比较。
-- **8E**：用 RH 证明不存在从 P¹ 到正亏格紧致曲面的非恒定全纯映射。
-- **8F（拓展）**：用 Riemann–Hurwitz 证明：从亏格 1 曲面到球面的次数 2 映射，总分歧重数为 4。
-
-**离场自检（115-120 分钟）**：能独立用 RH 算 y²=P(x) 的一个例子。
-**带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「局部化与局部环」。
-
-<a id="week-09"></a>
-## 第 09 次 · 局部化与局部环
-
-**本周问题**：只研究一点附近，应该允许哪些分母？
-
-**学完应能**：理解局部化；识别唯一极大理想；区分有理函数局部环、收敛芽环和形式幂级数环。
-
-### 课前阅读与材料
-
-- **必读 C · PDF 3-4、11-12 页**：§1.1 的局部化定义与例子；§1.5 局部环，只取当前定义。 [C · Cascini · Commutative Algebra](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Commutative Algebra - Notes1202.pdf>)
-- **必读 M · PDF 33 页**：§4 中 stalk / local ring 的定义。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §6**：函数芽及三种环的比较。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：C：邻近命题的证明可选；不补 Noetherian 理论。
-
-### 视频（选看）
-
-[Borcherds · Commutative algebra 16: Localization](https://www.youtube.com/watch?v=15lJotlFr6A) · 约 30 分钟。看乘法集、素理想处局部化及例子；全纯函数芽用文字材料对照。
-
-### 本次课堂
-
-- **回顾（0-10 分钟）**：回顾第 8 次的一道基础题与遗留问题。
-- **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：完整证明 C[z]_(z-a) 的单位判别与剩余域。
-- **引用与边界**：局部芽的等价关系；全纯函数在非零点附近可取倒数。
-- **讨论（65-90 分钟）**：为什么 C[z]_(z) 不是 C{z}，而 C{z} 也不是 C[[z]]？
-- **做题（90-115 分钟）**：共同做 9A 或 9B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
-
-### 本周六题
-
-- **9A**：证明 `C[z]_(z-a)` 的唯一极大理想由 `z-a` 生成，剩余域为 C；说明哪些分式是单位。
-- **9B**：在全纯函数芽环 `O_{X,p}≅C{z}` 中，证明 `u` 是单位当且仅当 `u(p)≠0`。给出属于 `C{z}` 但不属于 `C[z]_(z)` 的函数芽例子。
-- **9C**：证明收敛幂级数 u 的常数项非零时 1/u 仍收敛；为什么形式幂级数中的单位判别相同，却不代表两种环相同？
-- **9D**：比较 Z_(p) 与 Z[1/p] 中的可逆元素，并求前者的剩余域（p 为素数）。
-- **9E**：证明交换局部环中非单位恰好组成唯一极大理想；可先从 C{z} 的例子出发。
-- **9F（拓展）**：解释 `Frac(O_{X,p})` 与全局亚纯函数域 `M(X)` 的区别；以球面上 `e^z` 的局部芽为例说明局部亚纯芽未必全局延拓。
-
-**离场自检（115-120 分钟）**：能给出这三种环不同的一个具体证据。
-**带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「DVR、局部参数与尖点」。
-
-<a id="week-10"></a>
-## 第 10 次 · DVR、局部参数与尖点
-
-**本周问题**：零极点的整数阶数怎样变成局部代数？
-
-**学完应能**：证明全纯芽环为 DVR；理解 m/m² 的一维性；用尖点发现光滑性失效。
-
-### 课前阅读与材料
-
-- **必读 C · PDF 43-44 页**：§5 的 Definition 5.1、Proposition 5.2 与 Examples 5.3，只读 DVR 定义及直接刻画。 [C · Cascini · Commutative Algebra](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Algebra/Commutative Algebra - Notes1202.pdf>)
-- **必读 B · §6**：以收敛幂级数独立证明本班所需的 DVR 结论。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 51 页，§6 的余切空间 m/m²；C 45-46 页仅供代数较熟者。
-
-### 视频（选看）
-
-[Borcherds · Commutative algebra 16: Localization](https://www.youtube.com/watch?v=15lJotlFr6A) · 约 30 分钟。本周可回看素理想处局部化；此视频是背景复习，DVR 与尖点以本周文字和证明为准。
-
-### 本次课堂
-
-- **回顾（0-10 分钟）**：回顾第 9 次的一道基础题与遗留问题。
-- **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：对非零理想取最小阶数，证明它主生成；完整计算尖点的 m/m²。
-- **引用与边界**：第 4 次的 zⁿu 分解；不要求维数论或整闭判别定理。
-- **讨论（65-90 分钟）**：一个局部参数为什么够，而尖点却需要两个极大理想生成元？
 - **做题（90-115 分钟）**：共同做 10A 或 10B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
 ### 本周六题
 
-- **10A**：用 `z^n u(z)` 的分解证明 `C{z}` 的每个非零理想都是 `(z^n)`；再证明 `dim_C(m/m²)=1`。
-- **10B**：令 `R=C[t²,t³]_(t²,t³)`。证明极大理想 m 的 `m/m²` 由 `t²,t³` 的类构成基；由此说明 m 不是主理想，R 不是 DVR。
-- **10C**：计算 C{z}/(zⁿ) 的复维数，写出逐阶滤过及每个相邻商（n≥1）。
-- **10D**：在尖点环 R 中，证明 t 是分式域中的元素，满足整方程 T²-t²=0，却不属于 R；说明 R 非整闭。
-- **10E**：证明 Frac(C{z}) 的非零元素恰是 zⁿu（n 为整数，u 为全纯单位），并检验赋值的乘法规则。
-- **10F（拓展）**：在局部映射 `t=s^e` 中计算 t 的拉回阶数和 dt 的拉回阶数，解释分歧项 `e-1`。
+- **10A**：设 P 无重根且 `deg P=2g+2`，对 `y²=P(x)` 的光滑紧化求 x 映射的分歧点与亏格；说明有两个无穷远点且不分歧。
+- **10B**：对无重根的 `deg P=2g+1` 做同样计算，说明唯一无穷远点也分歧。
+- **10C**：二重覆盖 P¹ 恰有四个简单分歧值，求覆盖曲面的亏格；画出一种割线粘合示意。
+- **10D**：证明复环面的任意有限无分歧连通覆盖仍有亏格 1；与 [m] 的例子比较。
+- **10E**：用 RH 证明不存在从 P¹ 到正亏格紧致曲面的非恒定全纯映射。
+- **10F（拓展）**：用 Riemann–Hurwitz 证明：从亏格 1 曲面到球面的次数 2 映射，总分歧重数为 4。
 
-**离场自检（115-120 分钟）**：能解释 ord、均匀化参数、m/m² 之间的关系。
+**离场自检（115-120 分钟）**：能独立用 RH 算 y²=P(x) 的一个例子。
 **带走的记录**：主讲人整理定义、核心证明和一个算例；下次进入「因子与线性等价」。
 
 <a id="week-11"></a>
@@ -443,8 +445,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 84-85 页**：§9 开头从 Divisors 读到 Principal divisors / linear equivalence；略过 Jacobian 与 O* 长正合列。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **选读**：复习第 7 次的纤维计数；材料指南中的 Forster §16 可作替代。
+- **固定主阅读 M · PDF 33、84-85 页**：33 页只读全纯函数芽与局部环；84-85 页从 Divisors 读到主因子、次数、线性等价。略过 Jacobian 与 O* 长正合列。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：基础补充 §6：把第 4 次 zⁿu 的 DVR 证明应用于全纯芽环 C{z}，区分 C[z]_(z)、C{z}、C[[z]]。
+- **Supplement（不要求全员阅读）**：Supplement：基础补充 §6 的局部/全局函数比较；Forster §16 仅供已有此书者核对。
 
 ### 视频（选看）
 
@@ -479,9 +482,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 85-86 页**：Functions with controlled zeros and poles 与 Riemann-Roch Problem；微分段暂跳过。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §7**：L(D)、主部空间与有限维证明。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 87 页只预览 Euler 公式，不读证明；不把未知 h¹ 当作已知数字。
+- **固定主阅读 M · PDF 85-86 页**：Functions with controlled zeros and poles 与 Riemann-Roch Problem；微分段暂跳过。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§7 L(D)、主部空间与有限维证明。
+- **Supplement（不要求全员阅读）**：M：PDF 87 页只预览 Euler 公式，不读证明；不把未知 h¹ 当作已知数字。
 
 ### 视频（选看）
 
@@ -491,7 +494,7 @@
 
 - **回顾（0-10 分钟）**：回顾第 11 次的一道基础题与遗留问题。
 - **报告（10-60 分钟）**：前 25 分钟讲三个学习目标及例子，后 25 分钟沿主线展开：计算 L(n∞-mp)；证明主部映射的核为常数与一般 L(D) 有限维。
-- **引用与边界**：第 3 次紧致曲面全纯函数为常数；第 11 次主因子次数为 0。
+- **引用与边界**：第 5 次紧致曲面全纯函数为常数；第 11 次主因子次数为 0。
 - **讨论（65-90 分钟）**：球面能任意指定有限主部，环面为何可能失败？
 - **做题（90-115 分钟）**：共同做 12A 或 12B；其余题按基础分组。第 20 次可把工作坊延伸为其他同学的算例分享。
 
@@ -516,10 +519,9 @@
 
 ### 课前阅读与材料
 
-- **必读 D · PDF 51-54、87-88 页**：§5.1.1 只读 cotangent bundle / forms 定义；§7.1.2 亚纯微分。 [D · Donaldson · Riemann Surfaces（2004 稿）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS Donaldson.pdf>)
-- **必读 M · PDF 86 页**：Constrained forms 的定义，注意一般非零亚纯微分存在性留到第 17 次。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §8**：坐标换元与全局留数。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 51-53 页可替代 D 的微分定义，跳过 harmonic forms。
+- **固定主阅读 M · PDF 52、57-58、86 页**：52 页只读 Cotangent space 的 (1,0) 余切线与 dz；57 页从 Meromorphic forms 开始；58 页读阶数、留数与 Theorem 6.6；86 页读 Constrained forms。跳过 harmonic forms、periods 与典范次数的后续证明。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§8 坐标换元与全局留数。
+- **Supplement（不要求全员阅读）**：Supplement：D PDF 51-54、87-88 页，另一种微分定义与换元说明。
 
 ### 视频（选看）
 
@@ -554,9 +556,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 31-33、119-120 页**：§4 层与芽；§14 从 Line bundles 到 Theorem 14.1，120 页后半的「每个线丛来自因子」暂不读。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §9**：O(D) 的局部生成元与符号约定。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：国科大 P18 可替代视频：层的定义和例子，约 101 分钟；只选定义段。
+- **固定主阅读 M · PDF 31-33、119-120 页**：§4 层与芽；§14 从 Line bundles 到 Theorem 14.1，120 页后半的「每个线丛来自因子」暂不读。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§9 O(D) 的局部生成元与符号约定。
+- **Supplement（不要求全员阅读）**：国科大 P18 可辅助视频：层的定义和例子，约 101 分钟；只选定义段。
 
 ### 视频（选看）
 
@@ -593,9 +595,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 70-73 页**：§7 的 Čech cohomology；73 页只取 Leray 比较定理的陈述，不读 fine sheaves 分析路线。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §10**：球面 O(n∞) 的两开集计算。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 70-72 页的细化细节供主讲人补读，不要求一般参与者掌握直极限。
+- **固定主阅读 M · PDF 70-73 页**：§7 的 Čech cohomology；73 页只取 Leray 比较定理的陈述，不读 fine sheaves 分析路线。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§10 球面 O(n∞) 的两开集计算。
+- **Supplement（不要求全员阅读）**：M：PDF 70-72 页的细化细节供主讲人补读，不要求一般参与者掌握直极限。
 
 ### 视频（选看）
 
@@ -630,9 +632,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 68-69、74-75、87 页**：层态射与正合性；长正合列读到连接同态定义后，跳过 de Rham；87 页一点支撑层。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §11**：标准输入清单与一点列的含义。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 88 页 Theorem 9.5，只读结论；其分析背景证明不作为必读。
+- **固定主阅读 M · PDF 68-69、74-75、87 页**：层态射与正合性；长正合列读到连接同态定义后，跳过 de Rham；87 页一点支撑层。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§11 标准输入清单与一点列的含义。
+- **Supplement（不要求全员阅读）**：M：PDF 88 页 Theorem 9.5，只读结论；其分析背景证明不作为必读。
 
 ### 视频（选看）
 
@@ -667,9 +669,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 87-88 页**：Theorem 9.1、9.2 与 Euler 证明、9.6、9.8-9.9；读时按本班先用 g_a=h¹(O)，暂不代入微分维数。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §12**：不依赖 Hodge 理论的证明顺序。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：第 18 次拓展读 M PDF 96-98 页；本周只看证明依赖图。
+- **固定主阅读 M · PDF 87-88 页**：Theorem 9.1、9.2 与 Euler 证明、9.6、9.8-9.9；读时按本班先用 g_a=h¹(O)，暂不代入微分维数。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§12 不依赖 Hodge 理论的证明顺序。
+- **Supplement（不要求全员阅读）**：第 18 次拓展读 M PDF 96-98 页；本周只看证明依赖图。
 
 ### 视频（选看）
 
@@ -704,9 +706,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 95 页**：§11 Theorem 11.1 的陈述，按本班符号将 D 换成 -D；分析证明段跳过。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §13**：有效因子的主部配对与环面例子。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：主讲人拓展：M PDF 96 页末「using just finiteness」起至 98 页证明结束；不要把 96 页前半已用 deg K 的 dimension-counts 证明提前套入本班。
+- **固定主阅读 M · PDF 95 页**：§11 Theorem 11.1 的陈述，按本班符号将 D 换成 -D；分析证明段跳过。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§13 有效因子的主部配对与环面例子。
+- **Supplement（不要求全员阅读）**：主讲人拓展：M PDF 96 页末「using just finiteness」起至 98 页证明结束；不要把 96 页前半已用 deg K 的 dimension-counts 证明提前套入本班。
 
 ### 视频（选看）
 
@@ -741,9 +743,9 @@
 
 ### 课前阅读与材料
 
-- **必读 M · PDF 95、98 页**：Theorem 11.2 的经典陈述与 11.8-11.9 的大次数推论。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **必读 B · §14**：先用 g_a 推 deg K，再结合 RH 识别 g_a=g_top 的完整顺序。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **选读**：M：PDF 89 页的典范次数结论作对照，跳过随后的 Hodge 理论讨论。
+- **固定主阅读 M · PDF 95、98 页**：Theorem 11.2 的经典陈述与 11.8-11.9 的大次数推论。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§14 先用 g_a 推 deg K，再结合 RH 识别 g_a=g_top 的完整顺序。
+- **Supplement（不要求全员阅读）**：M：PDF 89 页的典范次数结论作对照，跳过随后的 Hodge 理论讨论。
 
 ### 视频（选看）
 
@@ -778,9 +780,9 @@
 
 ### 课前阅读与材料
 
-- **必读 B · §15**：综合例子的计算顺序与核对表。 [B · 本班基础补充](</Users/percyayanami/Seminar/Riemann Surface/plan/基础补充.md>)
-- **必读 M · 复习 PDF 24-25、84-88、95、98 页**：不加新章节，只回看实际使用的公式。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
-- **选读**：回看第 6、8、13、19 次；射影嵌入与一般间隙定理留到下一轮。
+- **固定主阅读 M · 复习 PDF 24-25、84-88、95、98 页**：不加新章节，只回看实际使用的公式。 [M · McMullen · Riemann Surfaces（2026-04-28）](</Users/percyayanami/Seminar/Riemann Surface/Notes and Books/Riemann Surface/RS McMullen.pdf>)
+- **班内衔接**：§15 综合例子的计算顺序与核对表。
+- **Supplement（不要求全员阅读）**：回看第 6、8、13、19 次；射影嵌入与一般间隙定理留到下一轮。
 
 ### 视频（选看）
 
